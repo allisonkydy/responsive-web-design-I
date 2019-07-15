@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Homepage Styles */
 
 .container {
-	width: 880px;
+	max-width: 880px;
 	margin: 0 auto;
 	line-height: 1.4;
 }
@@ -140,7 +140,8 @@ header nav a:hover {
 
 .slogan h1 {
 	font-size: 74px;
-	text-align: center;
+    text-align: center;
+    line-height: 1;
 }
 
 .slogan button {
@@ -176,12 +177,13 @@ button:hover {
   }
 
 .main {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 	height: 600px;
 	display: flex;
 	flex-flow: row wrap;
-	align-content: space-evenly;
+    align-content: space-evenly;
+    justify-content: space-between;
 }
 
 .main .top-text {
@@ -237,21 +239,14 @@ footer p {
         margin: 40px 0;
     }
 
-    .slogan .slogan-text h1 {
-        line-height: 1;
-    }
-
     .slogan .slogan-img {
         display: none;
     }
 
     .main {
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
         height: auto;
         width: 100%;
         padding: 4% 0;
-        justify-content: space-between;
     }
 
     .main .top-text {
