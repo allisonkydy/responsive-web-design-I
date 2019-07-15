@@ -225,5 +225,18 @@ footer p {
         margin-bottom: 30px;
     }
 
+    .slogan {
+        height: 100%;
+        margin: 40px 0;
+    }
+
+    .slogan .slogan-text h1 {
+        line-height: 1;
+    }
+
+    .slogan .slogan-img {
+        display: none;
+    }
+
 
 }
