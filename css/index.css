@@ -179,7 +179,7 @@ button:hover {
 .main {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	height: 600px;
+    height: 600px;
 	display: flex;
 	flex-flow: row wrap;
     align-content: space-evenly;
@@ -199,7 +199,7 @@ button:hover {
 }
 
 .contact {
-    margin: 30px 0;
+    margin: 30px auto;
     line-height: 1;
 }
 
@@ -216,10 +216,6 @@ footer p {
     section {
         max-width: 95%;
         margin: 0 auto;
-    }
-
-    .contact {
-        margin: 30px auto 0;
     }
 }
 
