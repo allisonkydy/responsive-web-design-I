@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid gray;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -204,7 +204,8 @@ footer p {
 
 /* Responsive Styles */
 
-@media screen and (max-width: 800px) {
+/* Tablet */
+@media screen and (max-width: 800px) { 
 
     .container {
         width: 95%;
@@ -219,6 +220,10 @@ footer p {
 
     header nav {
         width: 100%;
+    }
+
+    header nav a {
+        color: #B3B1B5;
     }
 
     header .logo {
@@ -261,5 +266,37 @@ footer p {
     .main .bottom-text {
         width: 32%;
         justify-content: space-between;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 500px) {
+
+    .container {
+        width: 100%;
+    }
+
+    header {
+        padding: 20px 0 0;
+    }
+
+    header .logo {
+        margin-bottom: 20px;
+    }
+
+    header nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    header nav a {
+        padding: 15px;
+        text-align: center;
+        font-size: 18px;
+        border-top: 1px solid #B3B1B5;
+    }
+
+    header nav a:last-child {
+        border-bottom: 1px solid #B3B1B5;
     }
 }
