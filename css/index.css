@@ -299,4 +299,8 @@ footer p {
     header nav a:last-child {
         border-bottom: 1px solid #B3B1B5;
     }
+
+    .slogan {
+        margin: 50px 0 70px;
+    }
 }
