@@ -303,4 +303,16 @@ footer p {
     .slogan {
         margin: 50px 0 70px;
     }
+
+    .main {
+        width: 90%;
+        margin: 0 auto;
+        padding: 50px 0 20px;
+        flex-flow: column nowrap;
+    }
+
+    .main .top-text, .main .bottom-text {
+        width: 100%;
+        margin-bottom: 4%;
+    }
 }
