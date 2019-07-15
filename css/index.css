@@ -194,7 +194,8 @@ button:hover {
 }
 
 .contact {
-	margin: 30px 0;
+    margin: 30px 0;
+    line-height: 1;
 }
 
 footer p {
@@ -314,5 +315,10 @@ footer p {
     .main .top-text, .main .bottom-text {
         width: 100%;
         margin-bottom: 4%;
+    }
+
+    .contact {
+        width: 90%;
+        margin: 5% auto 0;
     }
 }
