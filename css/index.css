@@ -190,6 +190,10 @@ button:hover {
 	width: 50%;
 }
 
+.main .middle-img {
+    max-width: 100%;
+}
+
 .main .bottom-text {
 	width: 33%;
 }
@@ -205,6 +209,19 @@ footer p {
 }
 
 /* Responsive Styles */
+
+/* Transition to Desktop Full Width */
+@media screen and (max-width: 880px) {
+
+    section {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .contact {
+        margin: 30px auto 0;
+    }
+}
 
 /* Tablet */
 @media screen and (max-width: 800px) { 
